@@ -1,0 +1,62 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sdes-hostinger-cms@2.0.0 test
+> node --test tests/*.test.mjs tests/*.test.cjs
+
+✔ authorization, persistence, multilingual publishing and quote lifecycle (32.532361ms)
+✔ private tracking keys, history, key rotation and stale updates (9.727099ms)
+✔ invalid dates and negative values rejected (0.845285ms)
+✔ blog drafts, translations, edits and image validation (11.789071ms)
+✔ all administration routes reject anonymous and unrelated accounts (3.729321ms)
+✔ demo records are fictional, non-bookable and deletion persists without changing real loads (2.456693ms)
+✔ country badges and private vehicle plates persist through authorized edits (13.826523ms)
+✔ regular customer enquiries persist while public carrier intake and load browsing are closed (3.605586ms)
+✔ loading and unloading coordinates preserve precision, validate ranges and remain private (3.94724ms)
+✔ partial loads require positive loading metres and full loads discard stale values (4.502828ms)
+✔ linked load lifecycle archives, reopens and counts deliveries once without private data leaks (12.859887ms)
+✔ server-side archive search, pagination and customer deduplication (20.586604ms)
+✔ public transport cards expose only approved cities and disappear on delivery (4.014092ms)
+✔ draft card remains private until published; clearing cities redacts labels without changing operation count (2.201649ms)
+✔ one load and two direct shipments share three cards and one consistent counter (7.695019ms)
+✔ unified job editor creates draft, activates tracking, preserves one job and archives delivery (11.135827ms)
+✔ legacy direct shipment becomes one editable job without losing its key, history or card identity (4.486213ms)
+✔ failed unified save rolls back load insert and does not duplicate an existing tracking reference (8.229856ms)
+✔ private immutable job PDFs keep customer and carrier prices separate (2650.078453ms)
+✔ enquiry pipeline preserves original details, protects notes and guards concurrent updates (16.348786ms)
+✔ enquiry archive does not infer old closed outcomes and paginates beyond 200 (14.891578ms)
+✔ won enquiries convert once into a private editable draft with original GPS and cargo snapshot (12.75622ms)
+✔ failed conversion rolls back and cannot change original enquiry or create a partial job (8.773727ms)
+✔ enquiry emails trim pasted edge whitespace, preserve aliases and reject malformed addresses (5.92397ms)
+✔ customer history groups exact contacts, includes archives, paginates and stays owner-only (15.208537ms)
+✔ regular routes persist privately, validate plans, protect concurrent edits and never create shipments (7.165803ms)
+✔ editorial drafts preserve incomplete translations; publication, archive and stale saves are guarded (3.986881ms)
+✔ CSV preview and commit are private, atomic, duplicate-safe drafts with no public side effects (16.389277ms)
+✔ job finance uses exact cents, isolated currencies, guarded audit history and private access (24.402937ms)
+✔ draft planning fields survive reopen, clearing, archive and activation without premature tracking (12.65063ms)
+✔ quote full addresses retain multiline values up to 800 characters (3.908002ms)
+✔ job trash and restore keep linked data, hide cards, counters, tracking and prevent stale edits (12.806886ms)
+✔ untracked drafts and legacy standalone shipments can be trashed and restored without conversion (4.673846ms)
+✔ all language/destination links stay same-origin and preserve regular intent (5.003983ms)
+✔ reject unsupported destinations and private/free text labels (0.592033ms)
+✔ visitor pages do not load admin bundles and retain page dependencies (7.17089ms)
+✔ passwords use salted hashes; permission mapping is explicit (351.895661ms)
+✔ MariaDB boundary preserves guarded batch writes and adds scalar JSON/derived aliases (1.042682ms)
+✔ CMS integration: setup, sessions, RBAC, editing, translation, SEO, media, blog and tracking consent (1089.80124ms)
+✔ browser DOM flows: homepage, German fallback, operations and every CMS section run without script errors (3265.575345ms)
+✔ cookie consent does not load measurement scripts before consent or after essential-only choice (27.053574ms)
+✔ persisted content field keys survive insertion of a new template element (1.191667ms)
+✔ customer and carrier PDFs have separate exact loading/delivery map annotations in every language (5666.19422ms)
+✔ empty or invalid GPS never creates a misleading PDF link (789.826644ms)
+✔ new PDF languages use an English fallback and preserve editable dictionary snapshots (767.238378ms)
+✔ every page has one canonical, unique locale alternatives and metadata (11.418853ms)
+✔ published article HTML includes content, safe metadata and language URLs before JS (1.464298ms)
+✔ lighter image variants and mobile animation replace distorted logo panel (0.522408ms)
+✔ route guides are crawlable localized pages with working quote context and sitemap entries (1.58564ms)
+ℹ tests 49
+ℹ suites 0
+ℹ pass 49
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7488.509138
